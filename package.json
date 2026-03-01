@@ -11,7 +11,9 @@
 		"lint": "biome lint",
 		"lint:fix": "biome lint --write",
 		"format:check": "biome format",
-		"format": "biome format --write"
+		"format": "biome format --write",
+		"atlas:generate": "python3 scripts/atlas/generate_atlas.py --write",
+		"atlas:check": "python3 scripts/atlas/generate_atlas.py --check"
 	},
 	"author": "",
 	"license": "ISC"
